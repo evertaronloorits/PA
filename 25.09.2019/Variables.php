@@ -24,4 +24,3 @@ echo 'Kaal: '.$kaal.'<br>';
 // Muutujate dünaamiline defineermimine
 $kehamassiIndeks = $kaal / ($pikkus * $pikkus);
 echo 'Kehamassiindeks on '.$kehamassiIndeks.'<br>';
-
