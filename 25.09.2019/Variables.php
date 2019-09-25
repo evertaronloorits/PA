@@ -20,3 +20,8 @@ echo 'Email: '.$email.'<br>';
 echo 'Vanus: '.$vanus.'<br>';
 echo 'Pikkus: '.$pikkus.'<br>';
 echo 'Kaal: '.$kaal.'<br>';
+
+// Muutujate dünaamiline defineermimine
+$kehamassiIndeks = $kaal / ($pikkus * $pikkus);
+echo 'Kehamassiindeks on '.$kehamassiIndeks.'<br>';
+
