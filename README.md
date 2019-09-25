@@ -31,10 +31,11 @@ Antud kursus annab ülevaate programmeerimise aluste baasteadmistest PHP keele b
   Siin origin on ühenduse nimi ja master on  peaharu
   
 ### 25.09.2019
-* Commandid PhpStormis
-   * VCS > GIT > Commit File
-   * VCS > GIT > Push (Ctrl + Shift + K)
-   * View > Tool Windows > Version Control > LOG
+* Git kasutamine läbi PhpStormi
+```
+VCS -> Commit (Ctrl + K)
+```
+* Antud käsus vali vajalikud failid, mis on vaja antud comitiga seostada, lisa comiti sõne ja vajuta Comit või comit and push.
    
    
 
