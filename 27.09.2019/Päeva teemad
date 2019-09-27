@@ -1,0 +1,16 @@
+# Päeva teemad
+## Muutuja siseinfo kontroll
+<?php
+var_dump($muutujaNimi);
+?>
+'''
+## PHP Sisefunktsioonide kasutamine
+* pi arvutamine
+<?php
+pi();
+?>
+* Väärtuste ümardamine
+'''
+<?php
+round($muutujaNimi, täpsuseVäärtus);
+?>
