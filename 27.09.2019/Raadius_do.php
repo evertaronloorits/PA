@@ -8,15 +8,18 @@ echo 'Sisestatud raadius on '.$raadius.'<br>';
 // ringi pindala
 $ringiPindala = 3.14 * $raadius * $raadius;
 // ringi ümbermõõt
-$ringiÜmbermõõt = 3.14 * 2 * $raadius;
+$ringiUmbermoot = pi() * 2 * $raadius;
 // muutujate andmete tüübi ja väärtuste kontroll
 var_dump($ringiPindala);
-var_dump($ringiÜmbermõõt);
+var_dump($ringiUmbermoot);
 // var_dump($ringiPindala);
 // var_dump($ringiÜmbermõõt);
 // väljastame tulemused
+echo '<hr>';
+$ringiPindalaUmardatud = round($ringiPindala, );
 echo 'Ringi pindala on '.$ringiPindala.'<br>;
-echo 'Ringi ümbermõõt on '.$ringiÜmbermõõt.'<br>;
+echo 'Ringi ümbermõõt on '.$ringiUmbermoot.'<br>;
+
 
 
 
