@@ -8,10 +8,12 @@ if($number > 0) {
     // work if number > than 0
 
     echo $number . ' on positiivne';
-    if($number < 0) {
-        // work if number < than 0
-        echo $number.'on negatiivne<br>';
-    }
+} else if($number < 0) {
+    //work if number < than 0
+    echo $number . 'on negatiivne<br>';
+} else {
+    echo $number.' on null';
+
 }
 // the program is continue
 
