@@ -1,7 +1,6 @@
 <?php
 for($number = 1; $number <=20; $number++) {
     if ($number < 2) ;{
-    {
         echo $number. 'Antud arv ei kuulu vahemiku sisse';
     } else {
         $divider = 2;
@@ -18,7 +17,6 @@ for($number = 1; $number <=20; $number++) {
         //otherwise
         echo $number . 'ei ole algarv<br>';
     }
-  }
 }
 echo '<br>';
 echo 'Antud vahemikus algarvude summa on'. $sum;
