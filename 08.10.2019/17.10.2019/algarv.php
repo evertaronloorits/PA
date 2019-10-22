@@ -8,7 +8,6 @@ for($number = 1; $number <=20; $number++) {
             //while number is not divided by divider with module 0
             $divider++; //get the next divider value
         }
-    }
 //if number and divider is not equal - prime number
     if ($number == $divider) {
         echo $number . 'on algarv<br>';
