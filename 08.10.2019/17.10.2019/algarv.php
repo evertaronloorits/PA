@@ -18,4 +18,6 @@ for($number = 1; $number <=20; $number++) {
     }
 }
 echo '<br>';
-echo 'Antud vahemikus algarvude summa on'. $sum;
+echo 'Antud vahemikus algarvude summa on'. $sum
+
+
