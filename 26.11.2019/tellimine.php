@@ -1,0 +1,14 @@
+<?php
+?>
+<h1> Tellimine</h1>
+<?php
+// serveri andmete kontroll
+// var_dump($_GET);
+//echo '<pre>';
+//print_r($_GET);
+//echo '</pre>';
+    $toode1 = $_GET['t1'];
+    $toode2 = $_GET['t2'];
+    $toode3 = $_GET['t3'];
+
+   echo 'Toode1: ' .$toode1 =
